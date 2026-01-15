@@ -31,6 +31,21 @@ Invoke-UserOffboarding.ps1: Multi-step security workflow to secure a departing u
 • Reliability: Eliminated manual configuration drift by using standardized Intune compliance profiles for all endpoints.
 • Troubleshooting: Successfully resolved complex API request errors (Status 400 Bad Requests) by refactoring script logic to handle specific object IDs.
 
+# Skills & Technologies Explored
+Identity & Access Management (IAM)
+• Entra ID (Azure AD): Managed enterprise identities and implemented Role-Based Access Control (RBAC).
+• Conditional Access: Engineered Zero-Trust policies including Geofencing and Managed Device requirements.
+• Privileged Identity Management (PIM): Established "Break-Glass" emergency accounts and least-privilege administrative models.
+• Self-Service Password Reset (SSPR): Configured tenant-wide SSPR to reduce helpdesk overhead.
+Endpoint Management & Security
+• Microsoft Intune (Endpoint Manager): Deployed MDM compliance policies for Windows 10/11.
+• Security Baselines: Enforced hardware-level security including BitLocker encryption, Windows Firewall, and Microsoft Defender Antivirus.
+• Policy Enforcement: Automated the blocking of non-compliant devices from corporate SaaS resources.
+Automation & Scripting
+• PowerShell 7: Developed production-ready scripts for tenant administration.
+• Microsoft Graph SDK: Utilized Graph API for complex bulk-provisioning and automated license management.
+• API Troubleshooting: Diagnosed and resolved REST API request errors (400 Bad Requests) through object refactoring and payload validation.
+
 # Project Artifacts
 • Microsoft 365 Admin Center:
 • Intune Compliance Dashboard:
