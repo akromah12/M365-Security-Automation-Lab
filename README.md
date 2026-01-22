@@ -7,9 +7,6 @@ Phase 1 (The Foundation): Azure Hybrid Identity Lab (https://github.com/akromah1
 This project demonstrates the transition from reactive IT support to Proactive Systems Engineering. I designed and deployed a "Security-First" Microsoft 365 tenant using Infrastructure as Code (IaC) and Zero-Trust security principles.
 The lab focuses on automating identity lifecycles, enforcing device compliance, and implementing granular security governance to reduce attack surfaces while optimizing operational efficiency.
 
-This project is part of a multi-phase infrastructure modernization lab.
-Phase 1 (The Foundation): Azure Hybrid Identity Lab (https://github.com/akromah12/Hybrid-Identity-Directory-Sync-.git) Where I built the Windows Server 2025 on-premises environment and established the Entra Connect sync bridge.
-
 # Advanced Implementations
 # 1. Identity Automation & Lifecycle Management
 Used PowerShell and the Microsoft Graph SDK to move away from manual GUI-based administration.
